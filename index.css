@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    list-style: none;
+}
+body {
+    height: 100vh;
+    background-image: url(./snaps/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar{
+    width: 250px;
+    height:100%;
+    background: rgba(10, 10, 10, .65);
+    box-shadow: 0px 8px 32px rgba(2, 4, 24);
+    border-right: 2px solid rgba(255, 255, 255,.09);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.sidebar .logo {
+    width: 100%;
+    height: 240px;
+    padding: 40px 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.sidebar .logo img{
+    width: 90px;
+}
+.sidebar .logo h5{
+    color: mistyrose;
+    font-size: 15px;
+    margin-top: 12px;
+    font-variant: small-caps;
+    pointer-events: none;
+    scale: 0;
+    opacity: 0;
+}
+.sidebar .nav-title{
+    color: aquamarine;
+    margin: 40px 0 18px;
+    pointer-events: none;
+}
+.sidebar nav{
+    padding: 0 30px;
+}
+.sidebar nav .nav-item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 4px;
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    margin: 8px 0;
+    color: whitesmoke;
+}
+.sidebar nav .nav-item span{
+    font-size: 18px;
+    margin-left: 8px;
+    pointer-events: none;
+    
+}
